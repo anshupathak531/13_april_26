@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int a=5, b=6;
-    int greatest =(a>b) ? a:b;
-printf("greatest : %d",greatest);
+    int a,b,max;
+printf("Enter the value of a and b:");
+scanf("%d%d",&a,&b);
+max=a>b?a:b;
+printf("%d",max);
 return 0;
 }
